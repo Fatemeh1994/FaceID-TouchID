@@ -15,6 +15,7 @@
 		42F9FE3E270F5BDF001C47AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F9FE3C270F5BDF001C47AA /* LaunchScreen.storyboard */; };
 		42F9FE49270F5BDF001C47AA /* FaceID_TouchIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F9FE48270F5BDF001C47AA /* FaceID_TouchIDTests.swift */; };
 		42F9FE54270F5BE0001C47AA /* FaceID_TouchIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F9FE53270F5BE0001C47AA /* FaceID_TouchIDUITests.swift */; };
+		42F9FE62270F5C02001C47AA /* BiometricIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F9FE61270F5C02001C47AA /* BiometricIDAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		42F9FE4F270F5BE0001C47AA /* FaceID-TouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FaceID-TouchIDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F9FE53270F5BE0001C47AA /* FaceID_TouchIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceID_TouchIDUITests.swift; sourceTree = "<group>"; };
 		42F9FE55270F5BE0001C47AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F9FE61270F5C02001C47AA /* BiometricIDAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricIDAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				42F9FE31270F5BDE001C47AA /* AppDelegate.swift */,
 				42F9FE33270F5BDE001C47AA /* SceneDelegate.swift */,
 				42F9FE35270F5BDE001C47AA /* ViewController.swift */,
+				42F9FE61270F5C02001C47AA /* BiometricIDAuth.swift */,
 				42F9FE37270F5BDE001C47AA /* Main.storyboard */,
 				42F9FE3A270F5BDF001C47AA /* Assets.xcassets */,
 				42F9FE3C270F5BDF001C47AA /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F9FE36270F5BDE001C47AA /* ViewController.swift in Sources */,
+				42F9FE62270F5C02001C47AA /* BiometricIDAuth.swift in Sources */,
 				42F9FE32270F5BDE001C47AA /* AppDelegate.swift in Sources */,
 				42F9FE34270F5BDE001C47AA /* SceneDelegate.swift in Sources */,
 			);
